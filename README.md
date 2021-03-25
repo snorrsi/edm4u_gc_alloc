@@ -5,7 +5,7 @@
 This is sample project based on 3D Template from Unity 2021.1.0f
 Only change made in this in Packages/manifest.json where EDM4U has been added as a package.
 
-##How to replicate the issue.
+## How to replicate the issue.
 
 1. Opening the project in Unity 2021.1.0f
 2. Open the Assets/Scene/SampleScene.unity
@@ -17,7 +17,7 @@ Only change made in this in Packages/manifest.json where EDM4U has been added as
 8. Wait for few frames
 9. Press Record butto in Profiler to stop recording GC Alloc
 
-##Reading the data (after following above steps)
+## Reading the data (after following above steps)
 1. In CPU Usage. Select some frame in the under and check GC Alloc origination.
 2. Under Raw Hierarchy, Main Thread search for "ExecuteAll"
 3. Select the ExecuteAll line, press x to view the contents there under.

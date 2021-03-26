@@ -2,12 +2,12 @@
 
 [See EDM4U issue #428](https://github.com/googlesamples/unity-jar-resolver/issues/428)
 
-This is sample project based on 3D Template from Unity 2021.1.0f
+This is sample project based on 3D Template from Unity 2020.3.1f
 Only change made in this in Packages/manifest.json where EDM4U has been added as a package.
 
 ## How to replicate the issue.
 
-1. Opening the project in Unity 2021.1.0f
+1. Opening the project in Unity 2020.3.1f
 2. Open the Assets/Scene/SampleScene.unity
 3. Press Play
 4. Start the Unity Profiler under Window / Analysis / Profiler (or Profiler standalone).
